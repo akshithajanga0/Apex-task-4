@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="portfolio">
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">MyPortfolio</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="todo.html">To-Do App</a>
+        <a href="products.html">Products</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="card" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div>
+          <h1 id="hero-title">Hi, I'm Akshitha — Frontend Developer</h1>
+          <p>Building responsive, accessible interfaces with HTML, CSS and JavaScript.</p>
+          <p class="cta-row">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </p>
+        </div>
+        <div class="avatar" aria-hidden="true">👩‍💻</div>
+      </div>
+    </section>
+
+    <section id="about" class="card" aria-labelledby="about-title">
+      <h2 id="about-title">About me</h2>
+      <p>I design and build front-end applications using modern vanilla JS and React-ready patterns.</p>
+      <ul>
+        <li>Skills: HTML, CSS, JavaScript, Responsive Design</li>
+        <li>Tools: Git, VS Code, Chrome DevTools</li>
+      </ul>
+    </section>
+        <div id="project-input-container"></div>
+        <section id="projects" class="card" aria-labelledby="projects-title"></section>
+  <h2 id="projects-title">Projects</h2>
+
+  <div id="project-list" class="grid">
+    <div class="project-card">
+      
+      <p>Donation Management System</p>
+    </div>
+    <div class="project-card">
+     
+      <p>Ecosystem Management</p>
+    </div>
+  </div>
+
+  
+  <div id="project-input-container"></div>
+</section>
+
+
+        <div id="project-list" class="grid"></div>
+        <div id="project-list" class="grid"></div>
+      </section>
+    </section>
+
+    <section id="contact" class="card" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden><label>Don’t fill: <input name="bot-field" /></label></p>
+
+        <label>
+          Name
+          <input id="contact-name" type="text" name="name" required minlength="2" />
+        </label>
+
+        <label>
+          Email
+          <input id="contact-email" type="email" name="email" required />
+        </label>
+
+        <label>
+          Message
+          <textarea id="contact-message" name="message" rows="4" required minlength="10"></textarea>
+        </label>
+
+        <button type="submit" class="btn">Send message</button>
+        <p id="contact-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  
+
+
+  
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="year"></span> MyPortfolio · 
+      <a href="todo.html">To-Do</a> · 
+      <a href="products.html">Products</a>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update current year in footer
+    document.addEventListener('DOMContentLoaded', () => {
+      const yearEl = document.getElementById('year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>

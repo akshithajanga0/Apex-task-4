@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Portfolio Website",
+    "desc": "A responsive portfolio website with About, Projects, and Contact sections.",
+    "tech": "HTML, CSS, JavaScript",
+    "link": "https://github.com/yourname/portfolio"
+  },
+  {
+    "title": "To-Do App",
+    "desc": "Task manager with localStorage support for persistence.",
+    "tech": "HTML, CSS, JavaScript (localStorage)",
+    "link": "todo.html"
+  },
+  {
+    "title": "Product Listing Page",
+    "desc": "Filter and sort products by categories, price, and rating.",
+    "tech": "HTML, CSS, JavaScript (fetch API)",
+    "link": "products.html"
+  }
+]
+  

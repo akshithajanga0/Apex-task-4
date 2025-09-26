@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="products">
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">MyPortfolio</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="todo.html">To-Do App</a>
+        <a href="products.html">Products</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Products</h1>
+      <div class="filters-grid">
+        <input id="search" placeholder="Search products..." aria-label="Search products" />
+        <select id="category-filter" aria-label="Filter by category">
+          <option value="all">All Categories</option>
+        </select>
+        <div class="price-range">
+          <label>Min <input id="min-price" type="number" min="0" placeholder="0" /></label>
+          <label>Max <input id="max-price" type="number" min="0" placeholder="1000" /></label>
+        </div>
+        <select id="sort-by" aria-label="Sort products">
+          <option value="default">Sort</option>
+          <option value="price-asc">Price: Low → High</option>
+          <option value="price-desc">Price: High → Low</option>
+          <option value="rating-desc">Rating: High → Low</option>
+        </select>
+      </div>
+
+      <div id="product-count" class="muted"></div>
+      <div id="product-grid" class="grid"></div>
+    </section>
+  </main>
+  
+  <div class="image-row">
+  <img src="m2.jpg" alt="Image 1">
+  <p>apple smart watch
+     $299.9</p>
+  <img src="m1.webp" alt="Image 2">
+  <p>s23 samsung mobile
+     $1099.9</p>
+  <img src="m3.webp" alt="Image 3">
+  <p>oppo t21 mobile $4679.9</p>
+  <img src="m4.webp" alt="Image 4">
+  <p>rubic crack watch $2999.9</p>
+</div>
+
+
+  <footer class="site-footer">
+    <div class="container">Product demo · <a href="index.html">Home</a></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

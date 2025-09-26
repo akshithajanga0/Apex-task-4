@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Eco Water Bottle",
+    "price": 19.99,
+    "category": "Home",
+    "rating": 4.5,
+    "img": "https://images.unsplash.com/photo-1552083375-1446d6b8a1f8?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 2,
+    "title": "Wireless Headphones",
+    "price": 89.99,
+    "category": "Electronics",
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1518441902113-6b6d9e1cf44e?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 3,
+    "title": "Yoga Mat",
+    "price": 29.99,
+    "category": "Fitness",
+    "rating": 4.2,
+    "img": "https://images.unsplash.com/photo-1544011847-7f13bba3c1b3?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 4,
+    "title": "Coffee Maker",
+    "price": 59.99,
+    "category": "Home",
+    "rating": 4.0,
+    "img": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 5,
+    "title": "Running Shoes",
+    "price": 120.00,
+    "category": "Fitness",
+    "rating": 4.7,
+    "img": "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 6,
+    "title": "Smart Lamp",
+    "price": 39.50,
+    "category": "Electronics",
+    "rating": 3.9,
+    "img": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=800&q=60"
+  }
+]
